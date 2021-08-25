@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2021 The RevengeOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -21,6 +21,9 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := X01BD_defconfig
+
+# BrokenHome
+BUILD_BROKEN_DUP_RULES := true
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/tpd_gesture"
