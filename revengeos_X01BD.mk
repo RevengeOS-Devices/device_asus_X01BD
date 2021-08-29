@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2021 The RevengeOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -9,8 +10,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common Superior stuff
+# Inherit some common RevengeOS stuff
 $(call inherit-product, vendor/revengeos/config/common.mk)
+REVENGEOS_BUILDTYPE := OFFICIAL
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080

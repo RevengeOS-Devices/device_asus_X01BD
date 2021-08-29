@@ -1,14 +1,17 @@
 [
   {
+    "remote": "devices", 
     "repository": "device_asus_sdm660-common",
     "target_path": "device/asus/sdm660-common"
   },
   {
+    "remote": "devices", 
     "repository": "kernel_asus_X01BD",
     "target_path": "kernel/asus/sdm660"
   },
   {
-    "repository": "vendor_asus_X01BD",
-    "target_path": "vendor/asus/X01BD"
+    "remote": "devices", 
+    "repository": "vendor_asus",
+    "target_path": "vendor/asus"
   }
 ]
